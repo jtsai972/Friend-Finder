@@ -6,6 +6,7 @@ body {
     background: #fff url("../images/gplaypattern.png") top repeat;
     display: flex;
         flex-flow: column;
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     min-height: 100vh;
 }
@@ -19,6 +20,17 @@ article, .container {
     margin: 0 auto;
     width: 90%;
         max-width: 1080px;
+}
+
+/* -------------------------------------------
+ * Heading
+ * ------------------------------------------- */
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.landing {
+    font-family: 'Merriweather', serif;
 }
 
 /* -------------------------------------------
@@ -126,4 +138,26 @@ fieldset{
 }
 fieldset fieldset:last-of-type {
     margin-bottom: 0;
+}
+
+#personal label, #personal input {
+    display: block;
+    width: 100%;
+}
+#personal label { margin-top: 0.5em; }
+#personal label:first-of-type { margin-top: 0;}
+
+.radio {
+    display: flex;
+        flex-flow: row;
+    justify-content: center;
+}
+#personality fieldset p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.radio label {
+    width: 18%;
+    margin: 0 1%;
+    text-align: center;
 }

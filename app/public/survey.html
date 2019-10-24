@@ -2,280 +2,364 @@
 <html lang="en">
 
 <head>
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Title -->
-    <title>Friend Finder | Home</title>
+  <!-- Title -->
+  <title>Friend Finder | Home</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Metrophobic|Open+Sans&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap" rel="stylesheet">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Friend Finder</h1>
-        </div>
-    </header>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Friend Finder</h1>
+    </div>
+  </header>
 
-    <nav>
-        <div class="container">
-            <a href="/">Home</a>
-            <a href="/survey" class="active">Survey</a>
-            </class>
-    </nav>
+  <nav>
+    <div class="container">
+      <a href="/">Home</a>
+      <a href="/survey" class="active">Survey</a>
+      </class>
+  </nav>
 
-    <!-- Content -->
-    <article>
-        <h1>Take a quick survey</h1>
-        <form action="" method="post">
-            <!-- Basic Info-->
-            <fieldset id="personal">
-                <legend>Basic Information</legend>
-                <label for="user-name">
-                    <input type="text" id="user-name" placeholder="Username" name="username">
-                </label>
-                <label for="user-image">
-                    <input type="text" id="user-image" placeholder="http://www.example.image.jpg" name="userimage">
-                </label>
-            </fieldset>
+  <!-- Content -->
+  <article>
+    <h1>Take a quick survey</h1>
+    <form action="" method="post">
+      <!-- Basic Info-->
+      <fieldset id="personal">
+        <legend>Basic Information</legend>
+        <label for="user-name">
+          User name
+          <input type="text" id="user-name" placeholder="Username" name="username">
+        </label>
+        <label for="user-image">
+          Add a User Image (Use a link)
+          <input type="text" id="user-image" placeholder="http://www.example.image.jpg" name="userimage">
+        </label>
+      </fieldset>
 
-            <!-- Personality Questions -->
-            <fieldset>
-                <legend>Personality Questions</legend>
-                <fieldset>
-                    Question 01:
-                    <label for="question-01-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-01-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-01-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-01-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-01-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 02:
-                    <label for="question-02-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-02-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-02-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-02-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-02-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 03:
-                    <label for="question-03-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-03-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-03-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-03-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-03-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 04:
-                    <label for="question-04-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-04-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-04-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-04-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-04-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 05:
-                    <label for="question-05-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-05-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-05-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-05-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-05-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 06:
-                    <label for="question-06-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-06-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-06-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-06-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-06-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 07:
-                    <label for="question-07-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-07-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-07-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-07-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-07-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 08:
-                    <label for="question-08-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-08-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-08-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-08-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-08-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 09:
-                    <label for="question-09-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-09-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-09-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-09-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-09-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-                    
-                <fieldset>
-                    Question 10:
-                    <label for="question-10-radio-1">
-                        <input type="radio" value="1">
-                    </label>
-                    <label for="question-10-radio-2">
-                        <input type="radio" value="2">
-                    </label>
-                    <label for="question-10-radio-3">
-                        <input type="radio" value="3">
-                    </label>
-                    <label for="question-10-radio-4">
-                        <input type="radio" value="4">
-                    </label>
-                    <label for="question-10-radio-5">
-                        <input type="radio" value="5">
-                    </label>
-                </fieldset>
-            </fieldset>
+      <!-- Personality Questions -->
+      <fieldset id="personality">
+        <legend>Personality Questions</legend>
+        
+        <fieldset>
+          <legend><strong>Question 01:</strong></legend>
+          <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+          <div class="radio">
+            <label for="question-01-radio-1">
+              <input id="question-01-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-01-radio-2">
+              <input id="question-01-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-01-radio-3">
+              <input id="question-01-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-01-radio-4">
+              <input id="question-01-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-01-radio-5">
+              <input id="question-01-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-            <button>Submit</button>
+        <fieldset>
+          <legend><strong>Question 02:</strong></legend>
+          <p>Generally speaking, you rely more on your experience than your imagination.</p>
+          <div class="radio">
+            <label for="question-02-radio-1">
+              <input id="question-02-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-02-radio-2">
+              <input id="question-02-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-02-radio-3">
+              <input id="question-02-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-02-radio-4">
+              <input id="question-02-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-02-radio-5">
+              <input id="question-02-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-        </form>
-    </article>
+        <fieldset>
+          <legend><strong>Question 03:</strong></legend>
+          <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+          <div class="radio">
+            <label for="question-03-radio-1">
+              <input id="question-03-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-03-radio-2">
+              <input id="question-03-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-03-radio-3">
+              <input id="question-03-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-03-radio-4">
+              <input id="question-03-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-03-radio-5">
+              <input id="question-03-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
+        <fieldset>
+          <legend><strong>Question 04:</strong></legend>
+          <p>You rarely do something just out of sheer curiosity.</p>
+          <div class="radio">
+            <label for="question-04-radio-1">
+              <input id="question-04-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-04-radio-2">
+              <input id="question-04-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-04-radio-3">
+              <input id="question-04-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-04-radio-4">
+              <input id="question-04-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-04-radio-5">
+              <input id="question-04-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-            <p>Created by Jasmine Tsai</p>
+        <fieldset>
+          <legend><strong>Question 05:</strong></legend>
+          <p>People can rarely upset you.</p>
+          <div class="radio">
+            <label for="question-05-radio-1">
+              <input id="question-05-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-05-radio-2">
+              <input id="question-05-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-05-radio-3">
+              <input id="question-05-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-05-radio-4">
+              <input id="question-05-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-05-radio-5">
+              <input id="question-05-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-            <p>Project links:
-                <a href="https://github.com/jtsai972/Friend-Finder">Github Repo</a> |
-                <a href="#">Heroku Link</a>
-            </p>
-        </div>
+        <fieldset>
+          <legend><strong>Question 06:</strong></legend>
+          <p>It is often difficult for you to relate to other people’s feelings.</p>
+          <div class="radio">
+            <label for="question-06-radio-1">
+              <input id="question-06-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-06-radio-2">
+              <input id="question-06-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-06-radio-3">
+              <input id="question-06-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-06-radio-4">
+              <input id="question-06-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-06-radio-5">
+              <input id="question-06-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-        <div class="more-contact">
-            <p>More projects from Jasmine can be found at the links below.</p>
-            <div class="links">
-                <a href="https://github.com/jtsai972/">Github</a>
-                <a href="https://jtsai972.github.io/Github-Portfolio/">Github Portfolio</a>
-                <a href="http://jtsai972.space">Website</a>
-                <a href="http://www.codepen.io/jtsai972">Codepen</a>
-            </div>
-        </div>
-    </footer>
+        <fieldset>
+          <legend><strong>Question 07:</strong></legend>
+          <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+          <div class="radio">
+            <label for="question-07-radio-1">
+              <input id="question-07-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-07-radio-2">
+              <input id="question-07-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-07-radio-3">
+              <input id="question-07-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-07-radio-4">
+              <input id="question-07-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-07-radio-5">
+              <input id="question-07-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
 
-    <!-- Scripts-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="scripts/script.js"></script>
+        <fieldset>
+          <legend><strong>Question 08:</strong></legend>
+          <p>You rarely get carried away by fantasies and ideas.</p>
+          <div class="radio">
+            <label for="question-08-radio-1">
+              <input id="question-08-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-08-radio-2">
+              <input id="question-08-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-08-radio-3">
+              <input id="question-08-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-08-radio-4">
+              <input id="question-08-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-08-radio-5">
+              <input id="question-08-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><strong>Question 09:</strong></legend>
+          <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+          <div class="radio">
+            <label for="question-09-radio-1">
+              <input id="question-09-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-09-radio-2">
+              <input id="question-09-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-09-radio-3">
+              <input id="question-09-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-09-radio-4">
+              <input id="question-09-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-09-radio-5">
+              <input id="question-09-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><strong>Question 10:</strong></legend>
+          <p>You feel more energetic after spending time with a group of people.</p>
+          <div class="radio">
+            <label for="question-10-radio-1">
+              <input id="question-10-radio-1" type="radio" value="1">
+              1 <br />(Strongly Disagree)
+            </label>
+            <label for="question-10-radio-2">
+              <input id="question-10-radio-2" type="radio" value="2">
+              2
+            </label>
+            <label for="question-10-radio-3">
+              <input id="question-10-radio-3" type="radio" value="3">
+              3
+            </label>
+            <label for="question-10-radio-4">
+              <input id="question-10-radio-4" type="radio" value="4">
+              4
+            </label>
+            <label for="question-10-radio-5">
+              <input id="question-10-radio-5" type="radio" value="5">
+              5 <br />(Strongly Agree)
+            </label>
+          </div>
+        </fieldset>
+
+      </fieldset>
+
+      <button>Submit</button>
+
+    </form>
+  </article>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+
+      <p>Created by Jasmine Tsai</p>
+
+      <p>Project links:
+        <a href="https://github.com/jtsai972/Friend-Finder">Github Repo</a> |
+        <a href="#">Heroku Link</a>
+      </p>
+    </div>
+
+    <div class="more-contact">
+      <p>More projects from Jasmine can be found at the links below.</p>
+      <div class="links">
+        <a href="https://github.com/jtsai972/">Github</a>
+        <a href="https://jtsai972.github.io/Github-Portfolio/">Github Portfolio</a>
+        <a href="http://jtsai972.space">Website</a>
+        <a href="http://www.codepen.io/jtsai972">Codepen</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 
 </html>
