@@ -58,6 +58,7 @@ nav {
         font-weight: bold;
     }
     nav a:hover {
+        border-bottom: none;
         background: rgba(0,0,0,0.6);
         font-weight: bold;
     }
