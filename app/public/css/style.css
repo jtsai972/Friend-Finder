@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    transition: 0.5s ease all;
+}
+body { 
+    background: #fff url("../images/gplaypattern.png") top repeat;
+    display: flex;
+        flex-flow: column;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+header, footer {
+    background: #444;
+    color: #eee;
+}
+
+article, .container {
+    margin: 0 auto;
+    width: 90%;
+        max-width: 1080px;
+}
+
+/* -------------------------------------------
+ * Link Styling
+ * ------------------------------------------- */
+a { 
+    color: #6CF;
+    text-decoration: none; 
+}
+a:hover { border-bottom: 1px solid #6CF; }
+
+a.button {
+    background: #6CF;
+    border-radius: 0.25em;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1em 2em;
+}
+
+/* -------------------------------------------
+ * NAVIGATION
+ * ------------------------------------------- */
+nav { 
+    background: #333; 
+}
+    nav .container {
+        display: flex;
+    }
+    nav a { 
+        color: white;
+        display: inline-block;
+        padding: 0.5em 1em;
+    }
+    nav a.active {
+        background: rgba(0,0,0,0.25);
+        font-weight: bold;
+    }
+    nav a:hover {
+        background: rgba(0,0,0,0.6);
+        font-weight: bold;
+    }
+
+
+/* -------------------------------------------
+ * Content
+ * ------------------------------------------- */
+article {
+    background: #fff;
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.1);
+    margin: 2em auto;
+    padding: 0 2em;
+        padding-bottom: 2em;
+}
+    article .landing {
+        font-size: 1.5em;
+    }
+
+/* -------------------------------------------
+ * Footer
+ * ------------------------------------------- */
+footer {
+    margin-top: auto;
+        padding-top: 1em;
+    text-align: center;
+}
+
+footer .container p, footer .more-contact p {
+    margin-top: 0;
+}
+footer .more-contact {
+    background: rgba(0,0,0,0.25);
+    padding: 1em;
+}
+footer .more-contact p {
+    margin-bottom: 0.5em;
+}
+
+footer .links {
+    display: flex;
+        flex-flow: row;
+        justify-content: center;
+}
+footer .links a {
+    background: rgba(0,0,0,0.25);
+    border-bottom: none;
+    margin: 0 0.25em;
+    padding: 0.5em 1em;
+}
+footer .links a:last-of-type {
+    border-right: none;
+}
+
+/* -------------------------------------------
+ * Survey
+ * ------------------------------------------- */
+form {
+    display: flex;
+        flex-flow: column;
+}
+
+fieldset{
+    margin-bottom: 1em;
+}
+fieldset fieldset:last-of-type {
+    margin-bottom: 0;
+}
