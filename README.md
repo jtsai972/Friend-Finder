@@ -1,5 +1,5 @@
-<!--# Bamazon
-An amazon node/mySQL mini-exploration -->
+<!--# Friend Finder
+My first foray into building an app using Node, Express, and Heroku -->
 
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -79,7 +79,7 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You can try this out on the Heroku link I'll put up by tomorrow night. (Thursday October 24, 9pm CST)
+You can try this out on [Heroku](https://whispering-plains-97873.herokuapp.com/survey)
 
 Command to run this program is `node server` in the root directory of this program. (The one with the server.js file)
 
