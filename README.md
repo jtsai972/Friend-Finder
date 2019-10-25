@@ -13,12 +13,12 @@ An amazon node/mySQL mini-exploration -->
   <h3 align="center">Friend Finder</h3>
 
   <p align="center">
-    My first foray into building a Heroku App using Node and Express
+    My first foray into building an app using Node, Express, and Heroku
     <br />
     <a href="https://github.com/jtsai972/Friend-Finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://dashboard.heroku.com/apps/whispering-plains-97873"><strong>Try it out on Heroku »</strong></a>
+    <a href="https://whispering-plains-97873.herokuapp.com/"><strong>Try it out on Heroku »</strong></a>
     <br />
     <br />
     <a href="https://github.com/jtsai972/Friend-Finder/issues">Report Bug</a>
@@ -108,7 +108,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Project Link: [https://github.com/jtsai972/Friend-Finder](https://github.com/jtsai972/Friend-Finder)
 
-Heroku Link: [Heroku App](https://dashboard.heroku.com/apps/whispering-plains-97873)
+Heroku Link: [Heroku App](https://whispering-plains-97873.herokuapp.com/)
 
 [Back to Table of Contents](#table-of-contents)
 
