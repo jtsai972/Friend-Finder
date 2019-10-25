@@ -18,9 +18,9 @@ An amazon node/mySQL mini-exploration -->
     <a href="https://github.com/jtsai972/Friend-Finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="#"><strong>Try it out on Heroku»</strong></a>
+    <a href="https://dashboard.heroku.com/apps/whispering-plains-97873"><strong>Try it out on Heroku »</strong></a>
     <br />
-    <br /> -->
+    <br />
     <a href="https://github.com/jtsai972/Friend-Finder/issues">Report Bug</a>
     ·
     <a href="https://github.com/jtsai972/Friend-Finder/issues">Request Feature</a>
@@ -38,7 +38,6 @@ An amazon node/mySQL mini-exploration -->
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-  * [Screenshot Thumbnails](#screenshot-thumbnails)
 * [Contributing](#contributing)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -101,18 +100,6 @@ Contributions are what make the open source community such an amazing place to b
 
 [Back to Table of Contents](#table-of-contents)
 
-### Screenshot Thumbnails
-
-Sorry, currently there are no screenshots here. They should be up by Tomorrow Night (October 24, 2019 11:59PM CST )
-
-<div align="center">
-  <!-- <img src="https://raw.githubusercontent.com/jtsai972/Friend-Finder/master/assets/images/run-customer.gif" alt ="Gif of app running as a customer" width="45%">
-  <span>&nbsp;</span>
-  <img src="https://raw.githubusercontent.com/jtsai972/Friend-Finder/master/assets/images/run-manager.gif" alt ="Gif of app running as a manager" width="45%"> -->
-</div>
-
-[Back to Table of Contents](#table-of-contents)
-
 <!-- CONTACT -->
 ## Contact
 
@@ -121,7 +108,7 @@ Sorry, currently there are no screenshots here. They should be up by Tomorrow Ni
 
 Project Link: [https://github.com/jtsai972/Friend-Finder](https://github.com/jtsai972/Friend-Finder)
 
-Heroku Link: [Not here yet, sorry](#)
+Heroku Link: [Heroku App](https://dashboard.heroku.com/apps/whispering-plains-97873)
 
 [Back to Table of Contents](#table-of-contents)
 
