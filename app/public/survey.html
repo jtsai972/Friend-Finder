@@ -37,6 +37,16 @@
   </nav>
 
   <!-- Content -->
+  <div id="filter" class="active">
+    <div id="match-modal" class="active">
+      <h1>Best Match</h1>
+      <h2 id="match-name"></h2>
+      <figure>
+        <img id="match-img" alt="best match user image"/>
+      </figure>
+    </div>
+  </div>
+
   <article>
     <h1>Take a quick survey</h1>
     <form action="/api/friends" method="post">
@@ -62,23 +72,23 @@
           <p>Your mind is always buzzing with unexplored ideas and plans.</p>
           <div class="radio">
             <label for="question-01-radio-1">
-              <input id="question-01-radio-1" type="radio" value="1">
+              <input id="question-01-radio-1" type="radio" name="question01" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-01-radio-2">
-              <input id="question-01-radio-2" type="radio" value="2">
+              <input id="question-01-radio-2" type="radio" name="question01" value="2">
               2
             </label>
             <label for="question-01-radio-3">
-              <input id="question-01-radio-3" type="radio" value="3">
+              <input id="question-01-radio-3" type="radio" name="question01" value="3">
               3
             </label>
             <label for="question-01-radio-4">
-              <input id="question-01-radio-4" type="radio" value="4">
+              <input id="question-01-radio-4" type="radio" name="question01" value="4">
               4
             </label>
             <label for="question-01-radio-5">
-              <input id="question-01-radio-5" type="radio" value="5">
+              <input id="question-01-radio-5" type="radio" name="question01" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -89,23 +99,23 @@
           <p>Generally speaking, you rely more on your experience than your imagination.</p>
           <div class="radio">
             <label for="question-02-radio-1">
-              <input id="question-02-radio-1" type="radio" value="1">
+              <input id="question-02-radio-1" type="radio" name="question02" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-02-radio-2">
-              <input id="question-02-radio-2" type="radio" value="2">
+              <input id="question-02-radio-2" type="radio" name="question02" value="2">
               2
             </label>
             <label for="question-02-radio-3">
-              <input id="question-02-radio-3" type="radio" value="3">
+              <input id="question-02-radio-3" type="radio" name="question02" value="3">
               3
             </label>
             <label for="question-02-radio-4">
-              <input id="question-02-radio-4" type="radio" value="4">
+              <input id="question-02-radio-4" type="radio" name="question02" value="4">
               4
             </label>
             <label for="question-02-radio-5">
-              <input id="question-02-radio-5" type="radio" value="5">
+              <input id="question-02-radio-5" type="radio" name="question02" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -116,23 +126,23 @@
           <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
           <div class="radio">
             <label for="question-03-radio-1">
-              <input id="question-03-radio-1" type="radio" value="1">
+              <input id="question-03-radio-1" type="radio" name="question03" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-03-radio-2">
-              <input id="question-03-radio-2" type="radio" value="2">
+              <input id="question-03-radio-2" type="radio" name="question03" value="2">
               2
             </label>
             <label for="question-03-radio-3">
-              <input id="question-03-radio-3" type="radio" value="3">
+              <input id="question-03-radio-3" type="radio" name="question03" value="3">
               3
             </label>
             <label for="question-03-radio-4">
-              <input id="question-03-radio-4" type="radio" value="4">
+              <input id="question-03-radio-4" type="radio" name="question03" value="4">
               4
             </label>
             <label for="question-03-radio-5">
-              <input id="question-03-radio-5" type="radio" value="5">
+              <input id="question-03-radio-5" type="radio" name="question03" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -143,23 +153,23 @@
           <p>You rarely do something just out of sheer curiosity.</p>
           <div class="radio">
             <label for="question-04-radio-1">
-              <input id="question-04-radio-1" type="radio" value="1">
+              <input id="question-04-radio-1" type="radio" name="question04" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-04-radio-2">
-              <input id="question-04-radio-2" type="radio" value="2">
+              <input id="question-04-radio-2" type="radio" name="question04" value="2">
               2
             </label>
             <label for="question-04-radio-3">
-              <input id="question-04-radio-3" type="radio" value="3">
+              <input id="question-04-radio-3" type="radio" name="question04" value="3">
               3
             </label>
             <label for="question-04-radio-4">
-              <input id="question-04-radio-4" type="radio" value="4">
+              <input id="question-04-radio-4" type="radio" name="question04" value="4">
               4
             </label>
             <label for="question-04-radio-5">
-              <input id="question-04-radio-5" type="radio" value="5">
+              <input id="question-04-radio-5" type="radio" name="question04" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -170,23 +180,23 @@
           <p>People can rarely upset you.</p>
           <div class="radio">
             <label for="question-05-radio-1">
-              <input id="question-05-radio-1" type="radio" value="1">
+              <input id="question-05-radio-1" type="radio" name="question05" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-05-radio-2">
-              <input id="question-05-radio-2" type="radio" value="2">
+              <input id="question-05-radio-2" type="radio" name="question05" value="2">
               2
             </label>
             <label for="question-05-radio-3">
-              <input id="question-05-radio-3" type="radio" value="3">
+              <input id="question-05-radio-3" type="radio" name="question05" value="3">
               3
             </label>
             <label for="question-05-radio-4">
-              <input id="question-05-radio-4" type="radio" value="4">
+              <input id="question-05-radio-4" type="radio" name="question05" value="4">
               4
             </label>
             <label for="question-05-radio-5">
-              <input id="question-05-radio-5" type="radio" value="5">
+              <input id="question-05-radio-5" type="radio" name="question05" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -197,23 +207,23 @@
           <p>It is often difficult for you to relate to other people’s feelings.</p>
           <div class="radio">
             <label for="question-06-radio-1">
-              <input id="question-06-radio-1" type="radio" value="1">
+              <input id="question-06-radio-1" type="radio" name="question06" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-06-radio-2">
-              <input id="question-06-radio-2" type="radio" value="2">
+              <input id="question-06-radio-2" type="radio" name="question06" value="2">
               2
             </label>
             <label for="question-06-radio-3">
-              <input id="question-06-radio-3" type="radio" value="3">
+              <input id="question-06-radio-3" type="radio" name="question06" value="3">
               3
             </label>
             <label for="question-06-radio-4">
-              <input id="question-06-radio-4" type="radio" value="4">
+              <input id="question-06-radio-4" type="radio" name="question06" value="4">
               4
             </label>
             <label for="question-06-radio-5">
-              <input id="question-06-radio-5" type="radio" value="5">
+              <input id="question-06-radio-5" type="radio" name="question06" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -224,23 +234,23 @@
           <p>In a discussion, truth should be more important than people’s sensitivities.</p>
           <div class="radio">
             <label for="question-07-radio-1">
-              <input id="question-07-radio-1" type="radio" value="1">
+              <input id="question-07-radio-1" type="radio" name="question07" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-07-radio-2">
-              <input id="question-07-radio-2" type="radio" value="2">
+              <input id="question-07-radio-2" type="radio" name="question07" value="2">
               2
             </label>
             <label for="question-07-radio-3">
-              <input id="question-07-radio-3" type="radio" value="3">
+              <input id="question-07-radio-3" type="radio" name="question07" value="3">
               3
             </label>
             <label for="question-07-radio-4">
-              <input id="question-07-radio-4" type="radio" value="4">
+              <input id="question-07-radio-4" type="radio" name="question07" value="4">
               4
             </label>
             <label for="question-07-radio-5">
-              <input id="question-07-radio-5" type="radio" value="5">
+              <input id="question-07-radio-5" type="radio" name="question07" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -251,23 +261,23 @@
           <p>You rarely get carried away by fantasies and ideas.</p>
           <div class="radio">
             <label for="question-08-radio-1">
-              <input id="question-08-radio-1" type="radio" value="1">
+              <input id="question-08-radio-1" type="radio" name="question08" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-08-radio-2">
-              <input id="question-08-radio-2" type="radio" value="2">
+              <input id="question-08-radio-2" type="radio" name="question08" value="2">
               2
             </label>
             <label for="question-08-radio-3">
-              <input id="question-08-radio-3" type="radio" value="3">
+              <input id="question-08-radio-3" type="radio" name="question08" value="3">
               3
             </label>
             <label for="question-08-radio-4">
-              <input id="question-08-radio-4" type="radio" value="4">
+              <input id="question-08-radio-4" type="radio" name="question08" value="4">
               4
             </label>
             <label for="question-08-radio-5">
-              <input id="question-08-radio-5" type="radio" value="5">
+              <input id="question-08-radio-5" type="radio" name="question08" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -278,23 +288,23 @@
           <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
           <div class="radio">
             <label for="question-09-radio-1">
-              <input id="question-09-radio-1" type="radio" value="1">
+              <input id="question-09-radio-1" type="radio" name="question09" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-09-radio-2">
-              <input id="question-09-radio-2" type="radio" value="2">
+              <input id="question-09-radio-2" type="radio" name="question09" value="2">
               2
             </label>
             <label for="question-09-radio-3">
-              <input id="question-09-radio-3" type="radio" value="3">
+              <input id="question-09-radio-3" type="radio" name="question09" value="3">
               3
             </label>
             <label for="question-09-radio-4">
-              <input id="question-09-radio-4" type="radio" value="4">
+              <input id="question-09-radio-4" type="radio" name="question09" value="4">
               4
             </label>
             <label for="question-09-radio-5">
-              <input id="question-09-radio-5" type="radio" value="5">
+              <input id="question-09-radio-5" type="radio" name="question09" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
@@ -305,23 +315,23 @@
           <p>You feel more energetic after spending time with a group of people.</p>
           <div class="radio">
             <label for="question-10-radio-1">
-              <input id="question-10-radio-1" type="radio" value="1">
+              <input id="question-10-radio-1" type="radio" name="question10" value="1">
               1 <br />(Strongly Disagree)
             </label>
             <label for="question-10-radio-2">
-              <input id="question-10-radio-2" type="radio" value="2">
+              <input id="question-10-radio-2" type="radio" name="question10" value="2">
               2
             </label>
             <label for="question-10-radio-3">
-              <input id="question-10-radio-3" type="radio" value="3">
+              <input id="question-10-radio-3" type="radio" name="question10" value="3">
               3
             </label>
             <label for="question-10-radio-4">
-              <input id="question-10-radio-4" type="radio" value="4">
+              <input id="question-10-radio-4" type="radio" name="question10" value="4">
               4
             </label>
             <label for="question-10-radio-5">
-              <input id="question-10-radio-5" type="radio" value="5">
+              <input id="question-10-radio-5" type="radio" name="question10" value="5">
               5 <br />(Strongly Agree)
             </label>
           </div>
