@@ -9,18 +9,19 @@ $("form button").on("click", function(event) {
     username: $("#user-name").val(),
     userimage: $("#user-image").val(),
     answers: [
-      parseInt($("input[name='question01'").val()),
-      parseInt($("input[name='question02'").val()),
-      parseInt($("input[name='question03'").val()),
-      parseInt($("input[name='question04'").val()),
-      parseInt($("input[name='question05'").val()),
-      parseInt($("input[name='question06'").val()),
-      parseInt($("input[name='question07'").val()),
-      parseInt($("input[name='question08'").val()),
-      parseInt($("input[name='question09'").val()),
-      parseInt($("input[name='question10'").val())
+      parseInt($("input[name='question01']:checked").val()),
+      parseInt($("input[name='question02']:checked").val()),
+      parseInt($("input[name='question03']:checked").val()),
+      parseInt($("input[name='question04']:checked").val()),
+      parseInt($("input[name='question05']:checked").val()),
+      parseInt($("input[name='question06']:checked").val()),
+      parseInt($("input[name='question07']:checked").val()),
+      parseInt($("input[name='question08']:checked").val()),
+      parseInt($("input[name='question09']:checked").val()),
+      parseInt($("input[name='question10']:checked").val())
     ]
   };
+  console.log(userData);
 
   // AJAX post the data to the friends API.
   $.post("/api/friends", userData, function(data) {
@@ -40,7 +41,7 @@ $("form button").on("click", function(event) {
 $(document).mouseup(function(e) 
 {
     var container = $("#filter.active #match-modal");
-    console.log(container.parent());
+    //console.log(container.parent());
 
     // if the target of the click isn't the container nor a descendant of the container
     if (!container.is(e.target) && container.has(e.target).length === 0) 
